@@ -1,0 +1,65 @@
+.navBar{
+    width:100%;
+    background-color: #0b1120;
+    display:flex;
+    justify-content: space-between;
+    padding: 31px ;
+  
+    position: fixed;
+    z-index:3;
+    color:white;
+    padding-right: 140px;
+
+}
+
+.add{
+    display: flex;
+}
+
+.addBouton
+{
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+body{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    background-color:#0f172a;
+
+    
+
+}
+
+.main{
+    padding: 140px;
+    padding-top:138px !important;
+    background-color:#0f172a;
+
+    
+}
+
+.task
+{
+    background-color: #1e293b;
+    color:white;
+}
+
+.addBouton, .addBouton:focus{
+    background-color: #0ea5e9;
+    border: 1px solid #0ea5e9 ;
+    color:white;
+}
+
+.addBouton:hover{
+    background-color: #1e293b;
+}
+
+.subTask, .subTask:focus{
+    background-color:#1e293b;
+    color:white;
+    border: 1px solid #0ea5e9 ;
+
+}
