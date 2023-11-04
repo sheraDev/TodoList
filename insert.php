@@ -27,13 +27,6 @@ if(isset($_GET["add"]) && !empty($_GET["newTask"]))
 
 }
 
-header("location:index.php");
+header("Location: index.php");
 
 
-   
-   
-
-
-
-
-?>
